@@ -19,6 +19,11 @@ export default function Navbar() {
             Throw
           </Link>
         </li>
+          <li>
+          <Link href="/colors" className="hover:text-[var(--accent)] transition-colors">
+            Colors
+          </Link>
+        </li>
         <li>
           <Link href="/info" className="hover:text-[var(--accent)] transition-colors">
             Info
