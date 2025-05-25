@@ -3,19 +3,48 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --text: #d1edca;
+  --background: #2f5146;
+  --main: #8aa971;
+  --accent: #505f61;
+  --baccent: #dcd1c0;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  background-color: var(--background);
+  font-family: Merriweather, serif;
+}
+
+/* Utility classes for consistent use of custom colors */
+.text-main {
+  color: var(--main);
+}
+
+.bg-main {
+  background-color: var(--main);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.text-baccent {
+  color: var(--baccent);
+}
+
+.bg-baccent {
+  background-color: var(--baccent);
+}
+
+.text-text {
+  color: var(--text);
+}
+
+.bg-text {
+  background-color: var(--text);
 }
