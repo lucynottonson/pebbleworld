@@ -1,6 +1,6 @@
 export default function PondPage() {
   return (
-    <div className="min-h-screen bg-[var(--background)] text-[var(--text)] flex flex-col items-center p-2 gap-10">
+    <main className="min-h-screen flex flex-col items-center p-2 gap-10">
       <div className="w-full max-w-6xl flex flex-col items-center gap-2">
         <div className="flex flex-col items-center gap-2 md:flex-row md:items-stretch w-full">
           <div className="flex-grow min-w-0 border border-[var(--accent)] rounded-lg p-6 shadow-md flex flex-col items-center gap-2">
@@ -19,6 +19,6 @@ export default function PondPage() {
           <span className="text-[var(--baccent)] font-bold">three</span>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
