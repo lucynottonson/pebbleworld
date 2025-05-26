@@ -5,8 +5,7 @@ export default function Home() {
         <section className="p-6 rounded bg-[var(--accent)] text-[var(--baccent)] shadow">
           <h2 className="text-2xl font-bold mb-2">Pebble World</h2>
           <p className="text-base">
-            I am not quite finished. Maybe it will be like that forever. 
-          </p>
+this is pebble world.          </p>
         </section>
       </main>
     </div>
