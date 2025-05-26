@@ -6,7 +6,7 @@ export default function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <div className="w-40 min-h-screen bg-[var(--background)] text-white p-4">
+    <div className="w-40 min-h-screen bg-[var(--background)] text-[var(--text)] p-4">
       <nav className="flex flex-col gap-0.5">
         <a
           href="/pond"
@@ -62,8 +62,8 @@ export default function Sidebar() {
           href="/pond/pebble5"
           className={`px-4 py-2 rounded-lg transition-colors ${
             pathname === "/pond/pebble5"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
+              ? "bg-[var(--accent)] text-[var(--baccent)] font-bold"
+              : "hover:bg-[var(--accent)] hover:text-[var(--baccent)]"
           }`}
         >
           Pebble 5
