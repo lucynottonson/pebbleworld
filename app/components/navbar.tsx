@@ -15,7 +15,11 @@ export default function Navbar() {
         <li>
           <Link 
             href="/pond" 
-            className={`transition-colors ${pathname === '/pond' ? 'text-[var(--baccent)] text-lg font-semibold' : 'hover:text-[var(--baccent)]'}`}
+            className={`transition-colors ${
+              pathname === '/pond' || pathname?.startsWith('/pond/')
+                ? 'text-[var(--baccent)] text-lg font-semibold'
+                : 'hover:text-[var(--baccent)]'
+            }`}
           >
             Pond
           </Link>
