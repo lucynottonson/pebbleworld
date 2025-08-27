@@ -136,7 +136,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 12
+          Altered States
         </a>
           <a
           href="/pond/pebble13"
