@@ -11,3 +11,16 @@ export default function PondPage() {
              <span className="text-[var(--baccent)] font-bold">box</span>
            </div>
         </div>
+     <div className="flex flex-col items-center gap-2 md:flex-row md:items-stretch w-full">
+          <div className="w-full border border-[var(--accent)] rounded-lg p-10 shadow-md flex flex-col items-center gap-4">
+             <span className="text-[var(--baccent)] font-bold">box</span>
+           </div>
+           <div className="w-full border border-[var(--accent)] rounded-lg p-10 shadow-md flex flex-col items-center gap-4">
+             <span className="text-[var(--baccent)] font-bold">box</span>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  );
+}
