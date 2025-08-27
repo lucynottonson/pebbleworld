@@ -26,7 +26,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 1
+          DISCLAIMER
         </a>
         <a
           href="/pond/pebble2"

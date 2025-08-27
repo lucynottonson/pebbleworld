@@ -1,0 +1,24 @@
+pages I would like to make:
+
+- insomnia page
+- dsm musings 
+- sickness and autism 
+- getting shot problem 
+- good and evil 
+- religion ?
+- on introspection
+- on meaning and finding meaning 
+- veganism ????
+- fun arguments 
+- symbolic events (birb for example)
+- on intelligence and precocity 
+- on what we owe each other 
+- things that make me angry 
+- on humor and why does no one think im joking when im clearly joking
+- on taking things in the world seriously 
+- on language and pictures 
+- arguing about kant for a whole page 
+- on arguing and truth (disclaimer page)
+- on the value and limitations of science 
+- on the ineffable
+- why doesn't anyone care about themselves or each other?
