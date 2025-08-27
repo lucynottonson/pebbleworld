@@ -8,7 +8,7 @@ export default function Home() {
             this is pebble world.
           </p>
           <p>
-            I do not know what this is or its purpose. In pond there are pebbles. 
+            I do not know what this is or its purpose. In pond there are pebbles. Pebbles are just me yapping in various ways about various things. It is mostly disorganized. 
             If you want to see the current site colors, you can find them on colors. 
             Throw is nothing. I will change this when it is something. Info is also nothing. 
             This is the only descriptive info you will recieve from me regarding the current status of pebble world.
