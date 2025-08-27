@@ -66,7 +66,7 @@ export default function Sidebar() {
               : "hover:bg-[var(--accent)] hover:text-[var(--baccent)]"
           }`}
         >
-          Pebble 5
+          Topics of Inquiry and Insanity
         </a>
           <a
           href="/pond/pebble6"
