@@ -140,10 +140,10 @@ export default function Sidebar() {
         </a>
           <a
           href="/pond/pebble13"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble13"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
+         className={`px-4 py-2 rounded-lg transition-colors ${
+            pathname === "/pond/pebble5"
+              ? "bg-[var(--accent)] text-[var(--baccent)] font-bold"
+              : "hover:bg-[var(--accent)] hover:text-[var(--baccent)]"
           }`}
         >
           Pebble 13
@@ -190,10 +190,10 @@ export default function Sidebar() {
         </a>
             <a
           href="/pond/pebble18"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble18"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
+         className={`px-4 py-2 rounded-lg transition-colors ${
+            pathname === "/pond/pebble5"
+              ? "bg-[var(--accent)] text-[var(--baccent)] font-bold"
+              : "hover:bg-[var(--accent)] hover:text-[var(--baccent)]"
           }`}
         >
           Pebble 18
