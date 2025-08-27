@@ -186,7 +186,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 17
+          Revered Books
         </a>
             <a
           href="/pond/pebble18"
