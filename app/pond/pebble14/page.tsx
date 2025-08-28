@@ -5,7 +5,7 @@ export default function PondPage() {
 
         <div className="flex flex-col items-center gap-2 md:flex-row md:items-stretch w-full">
           <div className="w-full border border-[var(--accent)] rounded-lg p-10 shadow-md flex flex-col items-center gap-4">
-             <span className="text-[var(--baccent)] font-bold">Pebble 18 copy so I can use it later</span>
+             <span className="text-[var(--baccent)] font-bold">Precocity and Evolutionary Misfortune</span>
            </div>
            <div className="w-full border border-[var(--accent)] rounded-lg p-10 shadow-md flex flex-col items-center gap-4">
              <span className="text-[var(--baccent)] font-bold">box</span>
