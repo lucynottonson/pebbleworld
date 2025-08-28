@@ -36,7 +36,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 2 - not a real page
+          Links to other things I have made
         </a>
           <a
           href="/pond/pebble3"
@@ -46,7 +46,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Links to other things I have made
+          Pebble 3 - blank
         </a>
           <a
           href="/pond/pebble4"
