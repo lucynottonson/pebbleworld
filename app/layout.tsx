@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import RootLayoutShell from "./components/RootLayoutShell";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: "Welcome to Pebble World",
