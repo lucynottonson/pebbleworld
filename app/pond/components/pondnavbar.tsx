@@ -36,7 +36,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 2
+          Pebble 2 - not a real page
         </a>
           <a
           href="/pond/pebble3"
@@ -46,7 +46,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 3
+          Pebble 3 - blank
         </a>
           <a
           href="/pond/pebble4"
@@ -56,7 +56,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 4
+          Pebble 4 - blank
         </a>
           <a
           href="/pond/pebble5"
@@ -76,7 +76,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 6
+          Pebble 6 - blank
         </a>
           <a
           href="/pond/pebble7"
@@ -86,7 +86,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 7
+          Pebble 7 - blank
         </a>
           <a
           href="/pond/pebble8"
@@ -96,7 +96,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 8
+          Pebble 8 - blank
         </a>
           <a
           href="/pond/pebble9"
@@ -106,7 +106,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 9
+          Insomnia
         </a>
           <a
           href="/pond/pebble10"
@@ -116,7 +116,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 10
+          Pebble 10 - blank
         </a>
           <a
           href="/pond/pebble11"
@@ -146,7 +146,7 @@ export default function Sidebar() {
               : "hover:bg-[var(--accent)] hover:text-[var(--baccent)]"
           }`}
         >
-          Pebble 13
+          Pebble 13 - blank
         </a>
             <a
           href="/pond/pebble14"
@@ -156,7 +156,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 14
+          Pebble 14 - page I was going to make but did not because anti solipsism rules
         </a>
             <a
           href="/pond/pebble15"
@@ -166,7 +166,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 15
+          Pebble 15 - blank
         </a>
             <a
           href="/pond/pebble16"
@@ -176,7 +176,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 16
+          Pebble 16 - blank
         </a>
             <a
           href="/pond/pebble17"
@@ -196,7 +196,7 @@ export default function Sidebar() {
               : "hover:bg-[var(--accent)] hover:text-[var(--baccent)]"
           }`}
         >
-          Pebble 18
+          Pebble 18 - box storage
         </a>
       </nav>
     </div>
