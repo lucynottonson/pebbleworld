@@ -126,7 +126,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 11
+          RAMBLING FROM ONE TIME
         </a>
           <a
           href="/pond/pebble12"
