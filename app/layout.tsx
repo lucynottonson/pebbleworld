@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import RootLayoutShell from "./components/RootLayoutShell";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"; // <-- make sure you use /react, not /next
 
 export const metadata: Metadata = {
   title: "Welcome to Pebble World",
@@ -12,5 +12,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <RootLayoutShell>{children}</RootLayoutShell>;
+  return (
+    <RootLayoutShell>
+      {children}
+      <Analytics /> 
+    </RootLayoutShell>
+  );
 }
