@@ -7,7 +7,7 @@ export default function PondPage() {
       <div className="w-full max-w-4xl flex flex-col items-center gap-2">
         <div className="flex flex-col items-center gap-2 md:flex-row md:items-stretch w-full">
           <div className="flex-grow min-w-10 border border-[var(--accent)] rounded-lg p-6 shadow-md flex flex-col items-center gap-2 bg-white/70">
-            <span className="text-[var(--baccent)] font-bold text-center break-words">
+            <span className="text-black font-bold text-center break-words">
               This is the pond. I know I said I would not provide any other
               descriptions but I decided to be generous because it is bothering
               me slightly that the home page is unfinished. That should at least
@@ -16,7 +16,7 @@ export default function PondPage() {
           </div>
 
           <div className="flex-grow min-w-0 border border-[var(--accent)] rounded-lg p-6 shadow-md flex flex-col items-center gap-4 bg-white/70">
-            <span className="text-[var(--baccent)] font-bold text-center break-words">
+            <span className="text-black font-bold text-center break-words">
               Each pebble is an entirely separate thing and none of them are
               connected and there is no universal styling or formatting across
               the different pebbles. You may be thinking, &quot;this must be
@@ -32,7 +32,7 @@ export default function PondPage() {
         </div>
 
         <div className="w-full border border-[var(--accent)] rounded-lg p-10 shadow-md flex flex-col items-center gap-4 bg-white/70">
-          <span className="text-[var(--baccent)] font-bold">
+          <span className="text-black font-bold">
             As you might notice, many pages are just placeholders. It is also
             the case that this is something I am constantly changing. Pebble
             world was started in May 2025 so any of this stuff could be from
