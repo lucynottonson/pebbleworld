@@ -6,8 +6,7 @@ export default function PondPage() {
       <p className="text-center max-w-2xl">
         Here are some links to other things I have made. They are all unfinished.
         Rule 1 is never expect me to finish anything ever. I get bored.
-        I am hoping that by creating a list of links I will be motivated to finish something.
-        You can always try something new.
+        I am hoping that by creating a list of links I will be motivated to finish something. I will try my best to add anything else I remember exists. My long term plan is to put them all on this website, but that will take a long time. 
       </p>
 
    <div className="flex flex-col gap-1">
