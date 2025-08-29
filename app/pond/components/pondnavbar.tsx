@@ -38,26 +38,7 @@ export default function Sidebar() {
         >
           Links to other things I have made
         </a>
-          <a
-          href="/pond/pebble3"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble3"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
-          }`}
-        >
-          Pebble 3 - blank
-        </a>
-          <a
-          href="/pond/pebble4"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble4"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
-          }`}
-        >
-          Pebble 4 - blank
-        </a>
+  
           <a
           href="/pond/pebble5"
           className={`px-4 py-2 rounded-lg transition-colors ${
@@ -66,37 +47,7 @@ export default function Sidebar() {
               : "hover:bg-[var(--accent)] hover:text-[var(--baccent)]"
           }`}
         >
-          Topics of Inquiry and Insanity
-        </a>
-          <a
-          href="/pond/pebble6"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble6"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
-          }`}
-        >
-          Pebble 6 - blank
-        </a>
-          <a
-          href="/pond/pebble7"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble7"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
-          }`}
-        >
-          Pebble 7 - blank
-        </a>
-          <a
-          href="/pond/pebble8"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble8"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
-          }`}
-        >
-          Pebble 8 - blank
+          Questions
         </a>
           <a
           href="/pond/pebble9"
@@ -107,16 +58,6 @@ export default function Sidebar() {
           }`}
         >
           Insomnia
-        </a>
-          <a
-          href="/pond/pebble10"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble10"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
-          }`}
-        >
-          Pebble 10 - blank
         </a>
           <a
           href="/pond/pebble11"
@@ -137,26 +78,6 @@ export default function Sidebar() {
           }`}
         >
           Altered States
-        </a>
-          <a
-          href="/pond/pebble13"
-         className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble5"
-              ? "bg-[var(--accent)] text-[var(--baccent)] font-bold"
-              : "hover:bg-[var(--accent)] hover:text-[var(--baccent)]"
-          }`}
-        >
-          Pebble 13 - blank
-        </a>
-            <a
-          href="/pond/pebble14"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble14"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
-          }`}
-        >
-          Pebble 14 - page I was going to make but did not because anti solipsism rules
         </a>
             <a
           href="/pond/pebble15"
