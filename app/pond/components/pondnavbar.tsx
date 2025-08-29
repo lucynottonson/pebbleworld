@@ -80,24 +80,14 @@ export default function Sidebar() {
           Altered States
         </a>
             <a
-          href="/pond/pebble15"
+          href="/pond/pebble10"
           className={`px-4 py-2 rounded-lg transition-colors ${
             pathname === "/pond/pebble15"
               ? "bg-white text-[var(--accent)] font-bold"
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Pebble 15 - blank
-        </a>
-            <a
-          href="/pond/pebble16"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble16"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
-          }`}
-        >
-          Pebble 16 - blank
+         Anti-Solipsism
         </a>
             <a
           href="/pond/pebble17"
@@ -107,7 +97,7 @@ export default function Sidebar() {
               : "hover:bg-white hover:text-[var(--accent)]"
           }`}
         >
-          Revered Books
+        Books
         </a>
             <a
           href="/pond/pebble18"
@@ -117,7 +107,7 @@ export default function Sidebar() {
               : "hover:bg-[var(--accent)] hover:text-[var(--baccent)]"
           }`}
         >
-          Pebble 18 - box storage
+          box storage
         </a>
       </nav>
     </div>
