@@ -1,6 +1,5 @@
 pages I would like to make:
 
-- insomnia page
 - dsm musings 
 - sickness and autism 
 - getting shot problem 
@@ -18,7 +17,6 @@ pages I would like to make:
 - on taking things in the world seriously 
 - on language and pictures 
 - arguing about kant for a whole page 
-- on arguing and truth (disclaimer page)
 - on the value and limitations of science 
 - on the ineffable
 - why doesn't anyone care about themselves or each other?
