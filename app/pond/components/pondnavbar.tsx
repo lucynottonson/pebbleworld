@@ -69,16 +69,6 @@ export default function Sidebar() {
         >
           RAMBLING FROM ONE TIME
         </a>
-          <a
-          href="/pond/pebble12"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble12"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
-          }`}
-        >
-          Altered States
-        </a>
             <a
           href="/pond/pebble10"
           className={`px-4 py-2 rounded-lg transition-colors ${
@@ -88,16 +78,6 @@ export default function Sidebar() {
           }`}
         >
          Anti-Solipsism
-        </a>
-            <a
-          href="/pond/pebble17"
-          className={`px-4 py-2 rounded-lg transition-colors ${
-            pathname === "/pond/pebble17"
-              ? "bg-white text-[var(--accent)] font-bold"
-              : "hover:bg-white hover:text-[var(--accent)]"
-          }`}
-        >
-        Books
         </a>
             <a
           href="/pond/pebble18"
