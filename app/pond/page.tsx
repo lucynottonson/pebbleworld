@@ -8,42 +8,20 @@ export default function PondPage() {
         <div className="flex flex-col items-center gap-2 md:flex-row md:items-stretch w-full">
           <div className="flex-grow min-w-10 border border-[var(--accent)] rounded-lg p-6 shadow-md flex flex-col items-center gap-2 bg-white/70">
             <span className="text-black font-bold text-center break-words">
-              This is the pond. I know I said I would not provide any other
-              descriptions but I decided to be generous because it is bothering
-              me slightly that the home page is unfinished. That should at least
-              have something on it.
+              This is pond. This section of pebble world is literally just me rambling and random lists and data I have collected. It is basically my notes app but only the notes I have decided could be helpful to anyone. I will likely change pond a lot but it was a lot more chaotic before now so keep that in mind while you are looking at it. 
             </span>
           </div>
 
           <div className="flex-grow min-w-0 border border-[var(--accent)] rounded-lg p-6 shadow-md flex flex-col items-center gap-4 bg-white/70">
             <span className="text-black font-bold text-center break-words">
-              Each pebble is an entirely separate thing and none of them are
-              connected and there is no universal styling or formatting across
-              the different pebbles. You may be thinking, &quot;this must be
-              someone who does not care about systems of organization&quot; and
-              unfortunately you would be wrong. I care deeply about systems of
-              organization to the point of not being able to do things at all if
-              I have not decided on a system of organization beforehand. There
-              is one workaround to this paralysis I experience though, which is
-              creating a system of organization that specifically accommodates
-              chaos as part of its rules.
+              This is also currently the only section that has anything on it. What will probably happen eventually is that the entire organization system I have created will be trashed and redone. The issue is that this is more difficult than you might assume from a coding perspective. I am not good at coding. There is a lot of chaos in the file that you cannot even see from deleted pages. I also numerically ordered these pages and then deleted many of them, which means the number associated with each public page is not the number it appears as on the website. 
             </span>
           </div>
         </div>
 
         <div className="w-full border border-[var(--accent)] rounded-lg p-10 shadow-md flex flex-col items-center gap-4 bg-white/70">
           <span className="text-black font-bold">
-            As you might notice, many pages are just placeholders. It is also
-            the case that this is something I am constantly changing. Pebble
-            world was started in May 2025 so any of this stuff could be from
-            anywhere from then to the present day. I am only saying this because
-            it is likely that I will think different things than things I say on
-            here after time has passed, and will not update my opinion
-            accordingly. As you guys probably know already, I change my mind a
-            lot and can be convinced of anything. I will not put dates on any of
-            this. Right now this site is in a state of chaos and I intend to
-            eventually make it into a site of non-chaos. I do not know whether
-            or not I will, but that is my intention.
+            we are embracing chaos in pebble world right now. all together. yay.
           </span>
         </div>
       </div>
