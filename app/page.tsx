@@ -18,7 +18,7 @@ export default function Home() {
      href="https://docs.google.com/forms/d/e/1FAIpQLSeh_q9xUInvzhbid-OJ53mKrZlz8J0svofIlH7tBnG9eNi0qg/viewform?usp=header"
      target="_blank"
      rel="noopener noreferrer"
-      className="w-full px-4 py-2 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow hover:opacity-80 transition text-center">
+      className="w-full px-4 py-2 bg-[var(--text)] text-[var(--accent)] font-semibold rounded shadow hover:opacity-80 transition text-center">
      PLEASE GIVE ME DATA
      </a>
      <p className="text-sm text-[var(--text)]">
