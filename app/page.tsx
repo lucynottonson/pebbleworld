@@ -12,7 +12,7 @@ export default function Home() {
           Pond is up, and it is full of old stuff and some new stuff. I promise I will edit and organize soon. colors page should be working and throw and info are both blank. Any updates will be here and not on info (because it is blank). 
           </p>
           <p>More importantly,</p>
-          <h2>THE THINKING STYLES GOOGLE FORM IS READY!!!!!! Click da button below this to fill it out</h2>
+          <h2>THE THINKING STYLES GOOGLE FORM IS READY!!!!!! Click the button below to fill it out</h2>
           <div className="flex flex-col gap-1">
      <a
      href="https://docs.google.com/forms/d/e/1FAIpQLSeh_q9xUInvzhbid-OJ53mKrZlz8J0svofIlH7tBnG9eNi0qg/viewform?usp=header"
