@@ -13,16 +13,16 @@ export default function Navbar() {
       </div>
       <ul className="flex space-x-6 text-[var(--text)] ">
          <li>
-          <Link 
+         <Link 
             href="/" 
             className={`transition-colors ${
-              pathname === '/' || pathname?.startsWith('')
-                ? 'text-[var(--baccent)] text-lg font-semibold'
-                : 'hover:text-[var(--baccent)]'
-            }`}
-          >
-            Pond
-          </Link>
+            pathname === '/'
+           ? 'text-[var(--baccent)] text-lg font-semibold'
+           : 'hover:text-[var(--baccent)]'
+           }`}
+            >
+              Home
+        </Link>
         </li>
         <li>
           <Link 
