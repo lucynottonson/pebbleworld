@@ -7,60 +7,72 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="w-full px-6 py-4 flex justify-between items-center bg-[var(--main)] text-[var(--text)] shadow-md">
-      <div className="text-xl font-bold text-[var(--text)]">
-        <Link href="/"></Link>
-      </div>
-      <ul className="flex space-x-6 text-[var(--text)] ">
-         <li>
-         <Link 
-            href="/" 
-            className={`transition-colors ${
-            pathname === '/'
-           ? 'text-[var(--baccent)] text-lg font-semibold'
-           : 'hover:text-[var(--baccent)]'
-           }`}
-            >
-              Home
-        </Link>
-        </li>
-        <li>
-          <Link 
-            href="/pond" 
-            className={`transition-colors ${
-              pathname === '/pond' || pathname?.startsWith('/pond/')
-                ? 'text-[var(--baccent)] text-lg font-semibold'
-                : 'hover:text-[var(--baccent)]'
-            }`}
-          >
-            Pond
-          </Link>
-        </li>
-        <li>
-          <Link 
-            href="/throw" 
-            className={`transition-colors ${pathname === '/throw' ? 'text-[var(--baccent)] text-lg font-semibold' : 'hover:text-[var(--baccent)]'}`}
-          >
-            Throw
-          </Link>
-        </li>
-        <li>
-          <Link 
-            href="/colors" 
-            className={`transition-colors ${pathname === '/colors' ? 'text-[var(--baccent)] text-lg font-semibold' : 'hover:text-[var(--baccent)]'}`}
-          >
-            Colors
-          </Link>
-        </li>
-        <li>
-          <Link 
-            href="/info" 
-            className={`transition-colors ${pathname === '/info' ? 'text-[var(--baccent)] text-lg font-semibold' : 'hover:text-[var(--baccent)]'}`}
-          >
-            Info
-          </Link>
-        </li>
-      </ul>
-    </nav>
+    <nav className="w-full px-6 py-4 flex items-center bg-[var(--main)] text-[var(--text)] shadow-md">
+  <div className="text-xl font-bold text-[var(--text)]">
+    <Link href="/">Logo</Link>
+  </div>
+  <ul className="flex flex-1 justify-evenly text-[var(--text)]">
+    <li>
+      <Link 
+        href="/" 
+        className={`transition-colors ${
+          pathname === '/'
+            ? 'text-[var(--baccent)] text-lg font-semibold'
+            : 'hover:text-[var(--baccent)]'
+        }`}
+      >
+        Home
+      </Link>
+    </li>
+    <li>
+      <Link 
+        href="/pond" 
+        className={`transition-colors ${
+          pathname === '/pond' || pathname?.startsWith('/pond/')
+            ? 'text-[var(--baccent)] text-lg font-semibold'
+            : 'hover:text-[var(--baccent)]'
+        }`}
+      >
+        Pond
+      </Link>
+    </li>
+    <li>
+      <Link 
+        href="/throw" 
+        className={`transition-colors ${
+          pathname === '/throw'
+            ? 'text-[var(--baccent)] text-lg font-semibold'
+            : 'hover:text-[var(--baccent)]'
+        }`}
+      >
+        Throw
+      </Link>
+    </li>
+    <li>
+      <Link 
+        href="/colors" 
+        className={`transition-colors ${
+          pathname === '/colors'
+            ? 'text-[var(--baccent)] text-lg font-semibold'
+            : 'hover:text-[var(--baccent)]'
+        }`}
+      >
+        Colors
+      </Link>
+    </li>
+    <li>
+      <Link 
+        href="/info" 
+        className={`transition-colors ${
+          pathname === '/info'
+            ? 'text-[var(--baccent)] text-lg font-semibold'
+            : 'hover:text-[var(--baccent)]'
+        }`}
+      >
+        Info
+      </Link>
+    </li>
+  </ul>
+</nav>
   );
 }
