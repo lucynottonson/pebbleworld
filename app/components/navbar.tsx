@@ -8,7 +8,22 @@ export default function Navbar() {
 
   return (
     <nav className="w-full px-6 py-4 flex justify-between items-center bg-[var(--main)] text-[var(--text)] shadow-md">
+      <div className="text-xl font-bold text-[var(--text)]">
+        <Link href="/"></Link>
+      </div>
       <ul className="flex space-x-6 text-[var(--text)] ">
+         <li>
+          <Link 
+            href="/" 
+            className={`transition-colors ${
+              pathname === '/' || pathname?.startsWith('')
+                ? 'text-[var(--baccent)] text-lg font-semibold'
+                : 'hover:text-[var(--baccent)]'
+            }`}
+          >
+            Pond
+          </Link>
+        </li>
         <li>
           <Link 
             href="/pond" 
@@ -35,14 +50,6 @@ export default function Navbar() {
             className={`transition-colors ${pathname === '/colors' ? 'text-[var(--baccent)] text-lg font-semibold' : 'hover:text-[var(--baccent)]'}`}
           >
             Colors
-          </Link>
-         </li>
-          <li>
-          <Link 
-            href="/" 
-            className={`transition-colors ${pathname === '/info' ? 'text-[var(--baccent)] text-lg font-semibold' : 'hover:text-[var(--baccent)]'}`}
-          >
-            Home
           </Link>
         </li>
         <li>
