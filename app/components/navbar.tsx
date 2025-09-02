@@ -8,9 +8,6 @@ export default function Navbar() {
 
   return (
     <nav className="w-full px-6 py-4 flex items-center bg-[var(--main)] text-[var(--text)] shadow-md">
-  <div className="text-xl font-bold text-[var(--text)]">
-    <Link href="/">Logo</Link>
-  </div>
   <ul className="flex flex-1 justify-evenly text-[var(--text)]">
     <li>
       <Link 
