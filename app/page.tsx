@@ -1,37 +1,17 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="min-h-screen bg-[var(--background)] text-[var(--text)] font-serif">
-      <main className="max-w-3xl mx-auto p-8 flex flex-col gap-10">
-        <section className="p-6 rounded bg-[var(--accent)] text-[var(--baccent)] shadow">
-          <h2 className="text-2xl font-bold mb-2">Pebble World</h2>
-          <p className="text-base">
-            PEBBLE WORLD IS BACK
-          </p>
-          <p>
-           Good news guys.  
-          Pond is up, and it is full of old stuff and some new stuff. I promise I will edit and organize soon. colors page should be working and throw and info are both blank. Any updates will be here and not on info (because it is blank). 
-          </p>
-          <p>More importantly,</p>
-          <h2>THE THINKING STYLES GOOGLE FORM IS READY!!!!!! Click the button below to fill it out</h2>
-          <div className="flex flex-col gap-1">
-     <a
-     href="https://docs.google.com/forms/d/e/1FAIpQLSeh_q9xUInvzhbid-OJ53mKrZlz8J0svofIlH7tBnG9eNi0qg/viewform?usp=header"
-     target="_blank"
-     rel="noopener noreferrer"
-      className="w-full px-4 py-2 bg-[var(--text)] text-[var(--accent)] font-semibold rounded shadow hover:opacity-80 transition text-center">
-     PLEASE GIVE ME DATA
-     </a>
-     <p className="text-sm text-[var(--text)]">
-questionnaire that asks you about how you think. I cut it down a lot so hopefully it will not take very long to complete. Please give me access to your brains! There is also a space at the end for you to put a form of contact so I can share the data with you one day.</p>
-  </div>
-        </section>
-        
-        <section className="p-6 rounded bg-[var(--accent)] text-[var(--baccent)] shadow">
-       
-       
-       </section>
+    <div className="relative w-full h-screen overflow-hidden bg-[var(--main)]">
+      <div className="absolute inset-0 -z-10">
+        <div className="floating bg-[var(--baccent)] opacity-30 w-24 h-24 rounded-full" />
+        <div className="floating bg-[var(--text)] opacity-20 w-16 h-16 rounded-full left-1/3 top-1/4" />
+        <div className="floating bg-[var(--main)] opacity-40 w-32 h-32 rounded-full left-2/3 top-2/3" />
+      </div>
 
-      </main>
+      <div className="flex flex-col items-center justify-center h-full space-y-6">
+        <div className="w-3/4 max-w-xl h-32 bg-[var(--text)]/10 border border-[var(--text)] rounded-xl" />
+        <div className="w-3/4 max-w-xl h-32 bg-[var(--text)]/10 border border-[var(--text)] rounded-xl" />
+        <div className="w-3/4 max-w-xl h-32 bg-[var(--text)]/10 border border-[var(--text)] rounded-xl" />
+      </div>
     </div>
   );
 }
