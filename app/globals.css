@@ -16,7 +16,6 @@ body {
   font-family: Merriweather, serif;
 }
 
-/* Utility classes for consistent use of custom colors */
 .text-main {
   color: var(--main);
 }
