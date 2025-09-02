@@ -27,8 +27,6 @@ questionnaire that asks you about how you think. I cut it down a lot so hopefull
         </section>
         
         <section className="p-6 rounded bg-[var(--accent)] text-[var(--baccent)] shadow">
-          <h2 className="text-2xl font-bold mb-2">September 2, 11:55am -- at the edge of my seat, fingers crossed, imaginary fingers crossed, purchased 6 white claws. we might not be doomed.</h2>
-
        
        
        </section>
