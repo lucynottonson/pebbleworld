@@ -25,6 +25,14 @@ export default function Home() {
 questionnaire that asks you about how you think. I cut it down a lot so hopefully it will not take very long to complete. Please give me access to your brains! There is also a space at the end for you to put a form of contact so I can share the data with you one day.</p>
   </div>
         </section>
+        
+        <section className="p-6 rounded bg-[var(--accent)] text-[var(--baccent)] shadow">
+          <h2 className="text-2xl font-bold mb-2">September 2, 11:55am -- most recent update, at the edge of my seat, fingers crossed, imaginary fingers crossed, purchased 6 white claws. we might not be doomed.</h2>
+
+       
+       
+       </section>
+
       </main>
     </div>
   );
