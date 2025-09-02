@@ -14,8 +14,8 @@ export default function Navbar() {
         href="/" 
         className={`transition-colors ${
           pathname === '/'
-            ? 'text-[var(--baccent)] text-lg font-semibold'
-            : 'hover:text-[var(--baccent)]'
+            ? 'text-[var(--baccent)] text-2xl font-semibold'
+            : 'hover:text-[var(--baccent)] text-xl'
         }`}
       >
         Home
@@ -26,8 +26,8 @@ export default function Navbar() {
         href="/pond" 
         className={`transition-colors ${
           pathname === '/pond' || pathname?.startsWith('/pond/')
-            ? 'text-[var(--baccent)] text-lg font-semibold'
-            : 'hover:text-[var(--baccent)]'
+            ? 'text-[var(--baccent)] text-2xl font-semibold'
+            : 'hover:text-[var(--baccent)] text-xl'
         }`}
       >
         Pond
@@ -38,8 +38,8 @@ export default function Navbar() {
         href="/throw" 
         className={`transition-colors ${
           pathname === '/throw'
-            ? 'text-[var(--baccent)] text-lg font-semibold'
-            : 'hover:text-[var(--baccent)]'
+            ? 'text-[var(--baccent)] text-2xl font-semibold'
+            : 'hover:text-[var(--baccent)] text-xl'
         }`}
       >
         Throw
@@ -50,8 +50,8 @@ export default function Navbar() {
         href="/colors" 
         className={`transition-colors ${
           pathname === '/colors'
-            ? 'text-[var(--baccent)] text-lg font-semibold'
-            : 'hover:text-[var(--baccent)]'
+            ? 'text-[var(--baccent)] text-2xl font-semibold'
+            : 'hover:text-[var(--baccent)] text-xl'
         }`}
       >
         Colors
@@ -62,8 +62,8 @@ export default function Navbar() {
         href="/info" 
         className={`transition-colors ${
           pathname === '/info'
-            ? 'text-[var(--baccent)] text-lg font-semibold'
-            : 'hover:text-[var(--baccent)]'
+            ? 'text-[var(--baccent)] text-2xl font-semibold'
+            : 'hover:text-[var(--baccent)] text-xl'
         }`}
       >
         Info
