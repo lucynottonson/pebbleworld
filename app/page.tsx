@@ -12,7 +12,7 @@ export default function HomePage() {
         animate={{ y: [0, -30, 0] }} // moves up and down
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
-        <span className="text-[var(--text)] font-semibold">Floating Box</span>
+        <span className="text-[var(--text)] font-semibold">I am working on this, promise.</span>
       </motion.div>
 
       <div className="flex flex-col items-center justify-center h-full space-y-6">
