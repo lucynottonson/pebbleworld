@@ -6,11 +6,6 @@ import { useState } from 'react';
 const cherryBombOne = Cherry_Bomb_One({ subsets: ['latin'], weight: '400' });
 const montserrat = Montserrat({ subsets: ['latin'], weight: '400' });
 
-const descriptionVariants = {
-  collapsed: { height: 48, scale: 1, transition: { type: 'spring', stiffness: 200, damping: 25 } },
-  expanded: { height: 'auto', scale: 1.05, transition: { type: 'spring', stiffness: 200, damping: 25 } },
-};
-
 export default function PondPage() {
   return (
     <div className="min-h-screen flex flex-col items-center p-4 gap-8" style={{ backgroundColor: "var(--background)" }}>
