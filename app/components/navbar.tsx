@@ -2,74 +2,53 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { motion } from 'framer-motion';
+import { Cherry_Bomb_One } from 'next/font/google';
+
+const cherryBombOne = Cherry_Bomb_One({ subsets: ['latin'], weight: '400' });
 
 export default function Navbar() {
   const pathname = usePathname();
 
+  const links = [
+    { name: 'Home', href: '/' },
+    { name: 'Pond', href: '/pond' },
+    { name: 'Gallery', href: '/gallery' },
+    { name: 'Cave', href: '/cave' },
+    { name: 'Garden', href: '/garden' },
+    { name: 'Elsewhere', href: '/otherprojects' },
+    { name: 'Info', href: '/info' },
+  ];
+
   return (
-    <nav className="w-full px-6 py-4 flex items-center bg-[var(--main)] text-[var(--text)] shadow-md">
-  <ul className="flex flex-1 justify-evenly text-[var(--text)]">
-    <li>
-      <Link 
-        href="/" 
-        className={`transition-colors ${
-          pathname === '/'
-            ? 'text-[var(--baccent)] text-2xl font-semibold'
-            : 'hover:text-[var(--baccent)] text-xl'
-        }`}
-      >
-        Home
-      </Link>
-    </li>
-    <li>
-      <Link 
-        href="/pond" 
-        className={`transition-colors ${
-          pathname === '/pond' || pathname?.startsWith('/pond/')
-            ? 'text-[var(--baccent)] text-2xl font-semibold'
-            : 'hover:text-[var(--baccent)] text-xl'
-        }`}
-      >
-        Pond
-      </Link>
-    </li>
-    <li>
-      <Link 
-        href="/throw" 
-        className={`transition-colors ${
-          pathname === '/throw'
-            ? 'text-[var(--baccent)] text-2xl font-semibold'
-            : 'hover:text-[var(--baccent)] text-xl'
-        }`}
-      >
-        Throw
-      </Link>
-    </li>
-    <li>
-      <Link 
-        href="/colors" 
-        className={`transition-colors ${
-          pathname === '/colors'
-            ? 'text-[var(--baccent)] text-2xl font-semibold'
-            : 'hover:text-[var(--baccent)] text-xl'
-        }`}
-      >
-        Colors
-      </Link>
-    </li>
-    <li>
-      <Link 
-        href="/info" 
-        className={`transition-colors ${
-          pathname === '/info'
-            ? 'text-[var(--baccent)] text-2xl font-semibold'
-            : 'hover:text-[var(--baccent)] text-xl'
-        }`}
-      >
-        Info
-      </Link>
-    </li>
-  </ul>
-</nav>
+    <nav className={`${cherryBombOne.className} w-full px-6 py-4 flex justify-center bg-[var(--main)] font-baloo`}>
+      <ul className="flex flex-wrap gap-6 justify-center">
+        {links.map(({ name, href }) => {
+          const isActive = pathname === href || pathname?.startsWith(`${href}/`);
+          return (
+            <li key={href}>
+              <motion.div
+                {...(!isActive && {
+                  whileHover: { scale: 1.1, y: -2 },
+                  whileTap: { scale: 0.95 },
+                  transition: { type: 'spring', stiffness: 300, damping: 20 },
+                })}
+              >
+                <Link
+                  href={href}
+                  className={`px-5 py-3 rounded-full transition-all duration-200 ease-out text-xl
+                    ${isActive
+                      ? 'text-[var(--baccent)]'
+                      : 'text-[var(--text)] hover:text-[var(--baccent)]'
+                    }`}
+                >
+                  {name}
+                </Link>
+              </motion.div>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
   );
 }
