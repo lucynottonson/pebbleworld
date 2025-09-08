@@ -59,28 +59,32 @@ function ProjectButton({ href, title, description }: { href: string; title: stri
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <motion.a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`relative w-80 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${cherryBombOne.className}`}
-      initial="collapsed"
-      animate={isHovered ? "expanded" : "collapsed"}
-      variants={descriptionVariants}
-      onHoverStart={() => setIsHovered(true)}
-      onHoverEnd={() => setIsHovered(false)}
-      style={{ cursor: 'pointer' }}
-    >
-      <span className="z-10 text-center">{title}</span>
-      <motion.span
-        className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${montserrat.className}`}
-        initial={{ opacity: 0, height: 0 }}
-        animate={isHovered ? { opacity: 1, height: 'auto' } : { opacity: 0, height: 0 }}
-        transition={{ type: 'spring', stiffness: 200, damping: 25 }}
-        style={{ overflow: 'hidden' }}
-      >
-        {description}
-      </motion.span>
-    </motion.a>
+   <motion.a
+  href={href}
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`relative w-64 h-64 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${cherryBombOne.className}`}
+  initial="collapsed"
+  animate={isHovered ? "expanded" : "collapsed"}
+  onHoverStart={() => setIsHovered(true)}
+  onHoverEnd={() => setIsHovered(false)}
+  style={{ cursor: 'pointer' }}
+  variants={{
+    collapsed: { height: 64, scale: 1 },
+    expanded: { height: 'auto', scale: 1.05 },
+  }}
+  transition={{ type: 'spring', stiffness: 200, damping: 25 }}
+>
+  <span className="z-10 text-center text-2xl">{title}</span>
+  <motion.span
+    className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${montserrat.className}`}
+    initial={{ opacity: 0, height: 0 }}
+    animate={isHovered ? { opacity: 1, height: 'auto' } : { opacity: 0, height: 0 }}
+    transition={{ type: 'spring', stiffness: 200, damping: 25 }}
+    style={{ overflow: 'hidden' }}
+  >
+    {description}
+  </motion.span>
+</motion.a>
   );
 }
