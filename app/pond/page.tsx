@@ -7,7 +7,7 @@ export default function PondPage() {
       <div className="w-full max-w-4xl flex flex-col items-center gap-2">
         <div className="w-full border border-[var(--accent)] rounded-lg p-10 shadow-md flex flex-col items-center gap-4 bg-white/70">
           <span className="text-black font-bold">
-            we are embracing chaos in pebble world right now. all together. yay.
+            in progress. here is pond image instead of content.
           </span>
         </div>
       </div>
