@@ -11,13 +11,7 @@ export default function PondNavbar() {
   const pathname = usePathname();
 
   const links = [
-    { name: 'Home', href: '/' },
-    { name: 'Pond', href: '/pond' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'Cave', href: '/cave' },
-    { name: 'Garden', href: '/garden' },
-    { name: 'Elsewhere', href: '/otherprojects' },
-    { name: 'Info', href: '/info' },
+    { name: 'test', href: '/pond1' },
   ];
 
   return (
