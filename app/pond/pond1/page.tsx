@@ -57,7 +57,7 @@ function ProjectButton({ href, title, description }: { href: string; title: stri
 >
   <span className="z-10 text-center text-2xl">{title}</span>
   <motion.span
-    className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${montserrat.className}`}
+    className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${cherryBombOne.className}`}
     initial={{ opacity: 0, height: 0 }}
     animate={isHovered ? { opacity: 1, height: 'auto' } : { opacity: 0, height: 0 }}
     transition={{ type: 'spring', stiffness: 200, damping: 25 }}
