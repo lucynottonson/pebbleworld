@@ -25,9 +25,9 @@ export default function PondPage() {
       </div>
 
         <ProjectButton
-        href="https://words-one-red.vercel.app"
-        title="Meaningless sentence generator"
-        description="Shuffles a sentence into other sentences with no real meaning. I tried to make it so that the sentences were all grammatically correct but meaningless. I only did one sentence though. It is also not styled."
+        href='/pond1'
+        title="if this doesnt work im killing myself"
+        description="prob not gonna work"
       />
 
       </div>
