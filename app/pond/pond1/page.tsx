@@ -19,8 +19,8 @@ export default function PondPage() {
 
       </motion.div>
 
-      <div className="flex flex-col items-center justify-center h-full space-y-6">
-       <div className="w-3/4 max-w-2xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center h-full space-y-1">
+       <div className="w-/4 max-w-1xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center">
         <p className={`text-[var(--text)] ${cherryBombOne.className}`}>another real pond page. Did not reuse exact code from home page obviously.</p>
       </div>
 
@@ -43,19 +43,19 @@ function ProjectButton({ href, title, description }: { href: string; title: stri
   href={href}
   target="_blank"
   rel="noopener noreferrer"
-  className={`relative w-64 h-64 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${cherryBombOne.className}`}
+  className={`relative w-40 h-40 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${cherryBombOne.className}`}
   initial="collapsed"
   animate={isHovered ? "expanded" : "collapsed"}
   onHoverStart={() => setIsHovered(true)}
   onHoverEnd={() => setIsHovered(false)}
   style={{ cursor: 'pointer' }}
   variants={{
-    collapsed: { height: 64, scale: 1 },
+    collapsed: { height: 40, scale: 1 },
     expanded: { height: 'auto', scale: 1.05 },
   }}
   transition={{ type: 'spring', stiffness: 200, damping: 25 }}
 >
-  <span className="z-10 text-center text-2xl">{title}</span>
+  <span className="z-10 text-center text-1xl">{title}</span>
   <motion.span
     className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${cherryBombOne.className}`}
     initial={{ opacity: 0, height: 0 }}
