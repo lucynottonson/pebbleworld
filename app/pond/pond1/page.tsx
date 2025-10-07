@@ -25,7 +25,7 @@ export default function PondPage() {
       </div>
 
         <ProjectButton
-        href='pond/pond1/100725'
+        href='/pond/pond1/100725'
         title="will be link to real thing"
         description="not sure if this is working guys"
       />
