@@ -3,9 +3,6 @@ import { motion } from "framer-motion";
 import { Cherry_Bomb_One} from 'next/font/google';
 const cherryBombOne = Cherry_Bomb_One({ subsets: ['latin'], weight: '400' });
 
-
-      <h1 className={`text-4xl font-bold text-[var(--text)] ${cherryBombOne.className}`}>Current Site Colors:</h1>
-
 export default function HomePage() {
   return (
     <div
