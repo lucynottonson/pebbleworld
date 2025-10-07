@@ -26,8 +26,8 @@ export default function PondPage() {
 
         <ProjectButton
         href='/pond/pond1/100725'
-        title="will be link to real thing"
-        description="not sure if this is working guys"
+        title="October 7, 2025"
+        description="Not a real page yet. testing my abilty to do this and locking in"
       />
 
       </div>
