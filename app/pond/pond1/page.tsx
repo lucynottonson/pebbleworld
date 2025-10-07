@@ -12,17 +12,14 @@ export default function PondPage() {
     >
       <motion.div
         className="absolute center-1/2 top-24 -translate-x-1/2 w-40 h-20 bg-[var(--text)]/20 border border-[var(--background)] rounded-lg  z-10 flex items-center justify-center"
-        animate={{ y: [0, -10, 0] }} 
+        animate={{ y: [0, 5, 0] }} 
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
-        <span className={`text-2xl font-bold text-[var(--text)] ${cherryBombOne.className}`}>Pond Page Outline:</span>
+        <span className={`text-2xl font-bold text-[var(--text)] ${cherryBombOne.className}`}>Uncategorized</span>
 
       </motion.div>
 
-      <div className="flex flex-col items-center justify-center h-full space-y-1">
-       <div className="w-/4 max-w-1xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center">
-        <p className={`text-[var(--text)] ${cherryBombOne.className}`}>another real pond page. Did not reuse exact code from home page obviously.</p>
-      </div>
+      <div className="flex flex-col items-left justify-center h-full space-y-1">
 
         <ProjectButton
         href='/pond/pond1/100725'
