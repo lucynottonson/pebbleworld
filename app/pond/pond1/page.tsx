@@ -21,13 +21,13 @@ export default function PondPage() {
 
       <div className="flex flex-col items-center justify-center h-full space-y-6">
        <div className="w-3/4 max-w-2xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center">
-        <p className={`text-[var(--text)] ${cherryBombOne.className}`}>First real pond page. Did not reuse exact code from home page obviously.</p>
+        <p className={`text-[var(--text)] ${cherryBombOne.className}`}>another real pond page. Did not reuse exact code from home page obviously.</p>
       </div>
 
         <ProjectButton
-        href="https://words-one-red.vercel.app"
-        title="Meaningless sentence generator"
-        description="Shuffles a sentence into other sentences with no real meaning. I tried to make it so that the sentences were all grammatically correct but meaningless. I only did one sentence though. It is also not styled."
+        href='pond/pond1/100725'
+        title="will be link to real thing"
+        description="not sure if this is working guys"
       />
 
       </div>
