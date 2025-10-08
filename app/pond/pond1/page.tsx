@@ -1,67 +1,59 @@
 'use client';
 import { motion } from "framer-motion";
-import { Cherry_Bomb_One} from 'next/font/google';
-import { useState } from 'react';
+import { Cherry_Bomb_One } from 'next/font/google';
 const cherryBombOne = Cherry_Bomb_One({ subsets: ['latin'], weight: '400' });
 
 export default function PondPage() {
   return (
     <div
-      className="relative w-full h-screen"
+      className="relative w-full min-h-screen"
       style={{ backgroundColor: 'var(--background)' }}
     >
-      <motion.div
-        className="absolute center-1/2 top-24 -translate-x-1/2 w-40 h-20 bg-[var(--text)]/20 border border-[var(--background)] rounded-lg  z-10 flex items-center justify-center"
-        animate={{ y: [0, 5, 0] }} 
-        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+           <motion.a
+        href="/pond"
+        className={`absolute top-8 left-8 w-28 h-12 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-3 ${cherryBombOne.className}`}
+        whileHover={{ scale: 1.08 }}
+        transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+        style={{ cursor: 'pointer' }}
       >
-        <span className={`text-2xl font-bold text-[var(--text)] ${cherryBombOne.className}`}>Uncategorized</span>
+        Back
+      </motion.a>
+      <div className="absolute inset-x-0 top-20 z-10 flex justify-center">
+        <motion.div
+          className="w-48 h-20 bg-[var(--text)]/20 border border-[var(--background)] rounded-lg flex items-center justify-center"
+          animate={{ y: [0, 5, 0] }}
+          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <span className={`text-2xl font-bold text-[var(--text)] ${cherryBombOne.className}`}>
+            Uncategorized
+          </span>
+        </motion.div>
+      </div>
 
-      </motion.div>
-
-      <div className="flex flex-col items-left justify-center h-full space-y-1">
-
-        <ProjectButton
-        href='/pond/pond1/100725'
-        title="October 7, 2025"
-        description="Not a real page yet. testing my abilty to do this and locking in"
-      />
-
+      <div className="flex flex-wrap justify-center gap-4 pt-64">
+        <ProjectButton href='/pond/pond1/100725' title="October 7, 2025" />
+        <ProjectButton href='#' title="box" />
+        <ProjectButton href='#' title="box" />
+        <ProjectButton href='#' title="box" />
+        <ProjectButton href='#' title="box" />
+        <ProjectButton href='#' title="box" />
       </div>
     </div>
   );
 }
 
-function ProjectButton({ href, title, description }: { href: string; title: string; description: string }) {
-  const [isHovered, setIsHovered] = useState(false);
-
+function ProjectButton({ href, title }: { href: string; title: string }) {
   return (
-   <motion.a
-  href={href}
-  target="_blank"
-  rel="noopener noreferrer"
-  className={`relative w-40 h-40 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${cherryBombOne.className}`}
-  initial="collapsed"
-  animate={isHovered ? "expanded" : "collapsed"}
-  onHoverStart={() => setIsHovered(true)}
-  onHoverEnd={() => setIsHovered(false)}
-  style={{ cursor: 'pointer' }}
-  variants={{
-    collapsed: { height: 40, scale: 1 },
-    expanded: { height: 'auto', scale: 1.05 },
-  }}
-  transition={{ type: 'spring', stiffness: 200, damping: 25 }}
->
-  <span className="z-10 text-center text-1xl">{title}</span>
-  <motion.span
-    className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${cherryBombOne.className}`}
-    initial={{ opacity: 0, height: 0 }}
-    animate={isHovered ? { opacity: 1, height: 'auto' } : { opacity: 0, height: 0 }}
-    transition={{ type: 'spring', stiffness: 200, damping: 25 }}
-    style={{ overflow: 'hidden' }}
-  >
-    {description}
-  </motion.span>
-</motion.a>
+    <motion.a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`w-44 h-16 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-4 ${cherryBombOne.className}`}
+      whileHover={{ scale: 1.08 }}
+      transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+      style={{ cursor: 'pointer' }}
+    >
+      <span className="text-center text-lg">{title}</span>
+    </motion.a>
   );
 }

@@ -11,12 +11,13 @@ export default function PondPage() {
       style={{ backgroundColor: 'var(--background)' }}
     >
       <motion.div
-        className="absolute center-1/2 top-24 -translate-x-1/2 w-40 h-20 bg-[var(--text)]/20 border border-[var(--background)] rounded-lg  z-10 flex items-center justify-center"
-        animate={{ y: [0, -10, 0] }} 
+        className="absolute inset-x-0 top-24 z-10 flex justify-center"
+        animate={{ y: [0, -5, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
-        <span className={`text-2xl font-bold text-[var(--text)] ${cherryBombOne.className}`}>Pond Page Outline:</span>
-
+        <span className={`text-4xl font-bold text-[var(--text)] ${cherryBombOne.className}`}>
+          Pond
+        </span>
       </motion.div>
 
       <div className="flex flex-col items-center justify-center h-full space-y-6">
@@ -26,8 +27,8 @@ export default function PondPage() {
 
         <ProjectButton
         href='/pond/pond1'
-        title="k nvm"
-        description="is going to be real link"
+        title="uncategorized pond pages"
+        description="this does not actually exist I just need to make the whole system first"
       />
 
       </div>

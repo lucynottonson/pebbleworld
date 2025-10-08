@@ -1,28 +1,49 @@
 'use client';
 import { motion } from "framer-motion";
 import { Cherry_Bomb_One} from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 const cherryBombOne = Cherry_Bomb_One({ subsets: ['latin'], weight: '400' });
+const montserrat = Montserrat({ subsets: ['latin'], weight: ['400', '600'] });
 
 export default function PondPage() {
   return (
     <div
-      className="relative w-full h-screen"
-      style={{ backgroundColor: 'var(--background)' }}
+      className="min-h-screen w-full px-6 pt-32 pb-16 flex flex-col items-center bg-[var(--background)]"
     >
+      <motion.a
+        href="/pond/pond1"
+        className={`fixed top-24 left-8 w-24 h-10 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-3 ${cherryBombOne.className}`}
+        whileHover={{ scale: 1.08 }}
+        transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+        style={{ cursor: 'pointer' }}
+      >
+        Back
+      </motion.a>
       <motion.div
-        className="absolute center-1/2 top-24 -translate-x-1/2 w-40 h-20 bg-[var(--text)]/20 border border-[var(--background)] rounded-lg  z-10 flex items-center justify-center"
-        animate={{ y: [0, -10, 0] }} 
+        className="text-center mb-12"
+        animate={{ y: [0, -5, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
-        <span className={`text-2xl font-bold text-[var(--text)] ${cherryBombOne.className}`}>Pond Page Outline:</span>
-
+        <h1 className={`text-4xl font-bold text-[var(--text)] mb-2 ${cherryBombOne.className}`}>
+          Title of page when it exists
+        </h1>
+        <p className={`text-lg text-[var(--text)]/80 ${cherryBombOne.className}`}>
+          October 7, 2025
+        </p>
       </motion.div>
 
-      <div className="flex flex-col items-center justify-center h-full space-y-6">
-       <div className="w-3/4 max-w-2xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center">
-               <p className={`text-[var(--text)] ${cherryBombOne.className}`}>I am making a new category of thing. This is an experiment. Previously I said that I was working on an organization system and would publish when that had been completed. I will actually not be doing that. I need to see how an organization system works before committing to it.</p>
-        <p className={`text-[var(--text)] ${cherryBombOne.className}`}>unlinked pond page with end date identifier</p>
-      </div>
+      <div className="w-full max-w-3xl space-y-8">
+        <div className={`text-[var(--text)] text-lg leading-relaxed space-y-4 ${montserrat.className}`}>
+          <p>
+            Text
+          </p>
+          <p>
+            Text more
+          </p>
+          <p>
+            More text
+          </p>
+        </div>
       </div>
     </div>
   );
