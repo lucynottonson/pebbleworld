@@ -20,6 +20,7 @@ export default function PondPage() {
 
       <div className="flex flex-col items-center justify-center h-full space-y-6">
        <div className="w-3/4 max-w-2xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center">
+               <p className={`text-[var(--text)] ${cherryBombOne.className}`}>I am making a new category of thing. This is an experiment. Previously I said that I was working on an organization system and would publish when that had been completed. I will actually not be doing that. I need to see how an organization system works before committing to it.</p>
         <p className={`text-[var(--text)] ${cherryBombOne.className}`}>unlinked pond page with end date identifier</p>
       </div>
       </div>
