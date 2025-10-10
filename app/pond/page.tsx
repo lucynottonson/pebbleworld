@@ -31,6 +31,12 @@ export default function PondPage() {
         description="this does not actually exist I just need to make the whole system first"
       />
 
+       <ProjectButton
+        href='/pond/pond2'
+        title="Why Things are Good and Bad"
+        description="me giving topics a full overview and listing why they are good and bad. Because everything is a little of both."
+      />
+
       </div>
     </div>
   );
