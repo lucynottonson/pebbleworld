@@ -37,6 +37,13 @@ export default function PondPage() {
         description="me giving topics a full overview and listing why they are good and bad. Because everything is a little of both."
       />
 
+        <ProjectButton
+        href='/pond/pond3'
+        title="Bookshelf"
+        description="Books and me yap maxing about them"
+      />
+
+
       </div>
     </div>
   );
