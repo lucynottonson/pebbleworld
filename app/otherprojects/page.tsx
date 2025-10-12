@@ -1,9 +1,9 @@
 'use client';
-import { Cherry_Bomb_One, Montserrat } from 'next/font/google';
+import { Raleway, Montserrat } from 'next/font/google';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 
-const cherryBombOne = Cherry_Bomb_One({ subsets: ['latin'], weight: '400' });
+const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
 const montserrat = Montserrat({ subsets: ['latin'], weight: '400' });
 
 export default function PondPage() {
@@ -58,7 +58,7 @@ function ProjectButton({ href, title, description }: { href: string; title: stri
   href={href}
   target="_blank"
   rel="noopener noreferrer"
-  className={`relative w-64 h-64 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${cherryBombOne.className}`}
+  className={`relative w-64 h-64 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${raleway.className}`}
   initial="collapsed"
   animate={isHovered ? "expanded" : "collapsed"}
   onHoverStart={() => setIsHovered(true)}

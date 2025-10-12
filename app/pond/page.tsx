@@ -1,9 +1,8 @@
 'use client';
 import { motion } from "framer-motion";
-import { Cherry_Bomb_One} from 'next/font/google';
+import { Raleway } from 'next/font/google';
 import { useState } from 'react';
-const cherryBombOne = Cherry_Bomb_One({ subsets: ['latin'], weight: '400' });
-
+const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
 export default function PondPage() {
   return (
     <div
@@ -15,14 +14,14 @@ export default function PondPage() {
         animate={{ y: [0, -5, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
-        <span className={`text-4xl font-bold text-[var(--text)] ${cherryBombOne.className}`}>
+        <span className={`text-4xl font-bold text-[var(--text)] ${raleway.className}`}>
           Pond
         </span>
       </motion.div>
 
       <div className="flex flex-col items-center justify-center h-full space-y-6">
        <div className="w-3/4 max-w-2xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center">
-        <p className={`text-[var(--text)] ${cherryBombOne.className}`}>understand that I do not need to deploy this at this stage. do not care. vercel is making my life harder and im not good enough at coding. sorry</p>
+        <p className={`text-[var(--text)] ${raleway.className}`}>understand that I do not need to deploy this at this stage. do not care. vercel is making my life harder and im not good enough at coding. sorry</p>
       </div>
 
         <ProjectButton
@@ -57,7 +56,7 @@ function ProjectButton({ href, title, description }: { href: string; title: stri
   href={href}
   target="_blank"
   rel="noopener noreferrer"
-  className={`relative w-64 h-64 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${cherryBombOne.className}`}
+  className={`relative w-64 h-64 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${raleway.className}`}
   initial="collapsed"
   animate={isHovered ? "expanded" : "collapsed"}
   onHoverStart={() => setIsHovered(true)}
@@ -71,7 +70,7 @@ function ProjectButton({ href, title, description }: { href: string; title: stri
 >
   <span className="z-10 text-center text-2xl">{title}</span>
   <motion.span
-    className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${cherryBombOne.className}`}
+    className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${raleway.className}`}
     initial={{ opacity: 0, height: 0 }}
     animate={isHovered ? { opacity: 1, height: 'auto' } : { opacity: 0, height: 0 }}
     transition={{ type: 'spring', stiffness: 200, damping: 25 }}

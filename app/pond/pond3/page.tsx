@@ -1,7 +1,7 @@
 'use client';
 import { motion } from "framer-motion";
-import { Cherry_Bomb_One } from 'next/font/google';
-const cherryBombOne = Cherry_Bomb_One({ subsets: ['latin'], weight: '400' });
+import { Raleway } from 'next/font/google';
+const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
 
 export default function PondPage() {
   return (
@@ -11,7 +11,7 @@ export default function PondPage() {
     >
            <motion.a
         href="/pond"
-        className={`absolute top-8 left-8 w-28 h-12 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-3 ${cherryBombOne.className}`}
+        className={`absolute top-8 left-8 w-28 h-12 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-3 ${raleway.className}`}
         whileHover={{ scale: 1.08 }}
         transition={{ type: 'spring', stiffness: 300, damping: 15 }}
         style={{ cursor: 'pointer' }}
@@ -24,7 +24,7 @@ export default function PondPage() {
           animate={{ y: [0, 5, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
         >
-          <span className={`text-2xl font-bold text-[var(--text)] ${cherryBombOne.className}`}>
+          <span className={`text-2xl font-bold text-[var(--text)] ${raleway.className}`}>
             BOOKSHELF
           </span>
         </motion.div>
@@ -48,7 +48,7 @@ function ProjectButton({ href, title }: { href: string; title: string }) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`w-44 h-16 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-4 ${cherryBombOne.className}`}
+      className={`w-44 h-16 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-4 ${raleway.className}`}
       whileHover={{ scale: 1.08 }}
       transition={{ type: 'spring', stiffness: 300, damping: 15 }}
       style={{ cursor: 'pointer' }}

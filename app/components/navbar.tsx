@@ -3,9 +3,9 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { Cherry_Bomb_One } from 'next/font/google';
+import { Raleway } from 'next/font/google';
 
-const cherryBombOne = Cherry_Bomb_One({ subsets: ['latin'], weight: '400' });
+const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -21,7 +21,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className={`${cherryBombOne.className} w-full px-6 py-4 flex justify-center bg-[var(--main)] font-baloo`}>
+    <nav className={`${raleway.className} w-full px-6 py-4 flex justify-center bg-[var(--main)] font-baloo`}>
       <ul className="flex flex-wrap gap-6 justify-center">
         {links.map(({ name, href }) => {
           const isActive = pathname === href || pathname?.startsWith(`${href}/`);

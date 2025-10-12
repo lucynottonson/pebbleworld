@@ -1,8 +1,8 @@
 'use client';
 import { motion } from "framer-motion";
-import { Cherry_Bomb_One} from 'next/font/google';
+import { Raleway } from 'next/font/google';
 import { Montserrat } from 'next/font/google';
-const cherryBombOne = Cherry_Bomb_One({ subsets: ['latin'], weight: '400' });
+const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
 const montserrat = Montserrat({ subsets: ['latin'], weight: ['400', '600'] });
 
 export default function PondPage() {
@@ -12,7 +12,7 @@ export default function PondPage() {
     >
       <motion.a
         href="/pond/pond1"
-        className={`fixed top-24 left-8 w-24 h-10 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-3 ${cherryBombOne.className}`}
+        className={`fixed top-24 left-8 w-24 h-10 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-3 ${raleway.className}`}
         whileHover={{ scale: 1.08 }}
         transition={{ type: 'spring', stiffness: 300, damping: 15 }}
         style={{ cursor: 'pointer' }}
@@ -24,10 +24,10 @@ export default function PondPage() {
         animate={{ y: [0, -5, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
-        <h1 className={`text-4xl font-bold text-[var(--text)] mb-2 ${cherryBombOne.className}`}>
+        <h1 className={`text-4xl font-bold text-[var(--text)] mb-2 ${raleway.className}`}>
           Title of page when it exists
         </h1>
-        <p className={`text-lg text-[var(--text)]/80 ${cherryBombOne.className}`}>
+        <p className={`text-lg text-[var(--text)]/80 ${raleway.className}`}>
           October 7, 2025
         </p>
       </motion.div>
