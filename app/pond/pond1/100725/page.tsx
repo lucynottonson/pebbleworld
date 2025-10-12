@@ -27,7 +27,7 @@ export default function PondPage() {
           Title of page when it exists
         </h1>
         <p className={`text-lg text-[var(--text)]/80 ${raleway.className}`}>
-          October 7, 2025
+          Guys idk why the font didnt update trying this instead 
         </p>
       </motion.div>
 
