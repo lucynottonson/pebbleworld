@@ -61,9 +61,9 @@ export default function PondPage() {
             description="Very extensive reference site for latin words. I like this website. It is nice if you want to search for a root or something. You can also just read it in the way a child before iPads might have read the English dictionary when they were bored. It is sort of fun to experience boredom from the perspective of a pre-internet child."
           />
           <ProjectButton
-            href="#"
-            title="Placeholder Link 2"
-            description="im going to link things here that i like but didnt take part in"
+            href="https://annas-archive.org"
+            title="Annas Archive"
+            description="Largest online shadow library. They have an information page with a better description than I could give. NOTE: It is our individual ethical responsibility to do research on the origins of texts we are thinking about pirating and decide whether or not it is right to do so. There are times when I do not think it is. Do not steal from individuals. Only steal from corporations."
           />
 
           <ProjectButton
