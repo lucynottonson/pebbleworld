@@ -63,7 +63,7 @@ export default function PondPage() {
           <ProjectButton
             href="https://annas-archive.org"
             title="Annas Archive"
-            description="Largest online shadow library. They have an information page with a better description than I could give. NOTE: It is each of our individual ethical responsibilities to do research on the origins of texts we are thinking about pirating and decide whether or not it is right to do so. There are times when I do not think it is. Do not steal from individuals. Only steal from corporations."
+            description="Largest online shadow library. They have an information page with a better description than I could give. NOTE: It is each of our individual ethical responsibilities to do research on the origins of texts we are thinking about pirating and decide whether or not it is right to do so. There are times when I do not think it is. Do not steal from individuals. Only steal from corporations. It is also good to support your local library. Individual action matters at the local level."
           />
 
           <ProjectButton
