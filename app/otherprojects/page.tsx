@@ -56,11 +56,10 @@ export default function PondPage() {
           <h2 className={`text-2xl font-bold text-[var(--text)] ${raleway.className}`}>From Others</h2>
 
           <ProjectButton
-            href="#"
-            title="Placeholder Link 1"
-            description="im going to link things here that i like but didnt take part in"
+            href="https://personal.math.ubc.ca/~cass/frivs/latin/latin-dict-full.html"
+            title="Latin Word List"
+            description="Very extensive reference site for latin words. I like this website. It is nice if you want to search for a root or something. You can also just read it in the way a child before iPads might have read the English dictionary when they were bored. It is sort of fun to experience boredom from the perspective of a pre-internet child."
           />
-
           <ProjectButton
             href="#"
             title="Placeholder Link 2"
