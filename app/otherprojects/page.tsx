@@ -69,7 +69,7 @@ export default function PondPage() {
           <ProjectButton
             href="https://www.canada.ca/en.html"
             title="Canadian Government Website"
-            description="Has many resources that are more reputable than the resources available on the US Government website at this time. Accurate food nutrition database, etc. Nice to look through"
+            description="Has many resources that are more reputable than the resources available on the US Government website at this time. Accurate food nutrition database, etc. Nice to look through. No ads for megacorporations"
           />
         </div>
       </div> 
