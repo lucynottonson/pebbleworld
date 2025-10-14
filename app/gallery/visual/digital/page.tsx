@@ -32,7 +32,7 @@ export default function PondPage() {
 
       <div className="flex flex-wrap justify-center gap-4 pt-64">
         <ProjectButton href='/gallery/visual/digital/3D' title="3D" />
-        <ProjectButton href='/gallery/visual/2D' title="2D" />
+        <ProjectButton href='/gallery/visual/digital/2D' title="2D" />
       </div>
     </div>
   );
