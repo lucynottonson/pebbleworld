@@ -67,9 +67,9 @@ export default function PondPage() {
           />
 
           <ProjectButton
-            href="#"
-            title="Placeholder Link 3"
-            description="im going to link things here that i like but didnt take part in"
+            href="https://www.canada.ca/en.html"
+            title="Canadian Government Website"
+            description="Has many resources that are more reputable than the resources available on the US Government website at this time. Accurate food nutrition database, etc. Nice to look through"
           />
         </div>
       </div> 
