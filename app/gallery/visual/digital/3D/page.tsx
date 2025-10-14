@@ -10,7 +10,7 @@ export default function PondPage() {
       style={{ backgroundColor: 'var(--background)' }}
     >
            <motion.a
-        href="/gallery/visual"
+        href="/gallery/visual/digital"
         className={`absolute top-8 left-8 w-28 h-12 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-3 ${raleway.className}`}
         whileHover={{ scale: 1.08 }}
         transition={{ type: 'spring', stiffness: 300, damping: 15 }}
@@ -25,31 +25,10 @@ export default function PondPage() {
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
         >
           <span className={`text-2xl font-bold text-[var(--text)] ${raleway.className}`}>
-           Digital Gallery
+            3D Gallery
           </span>
         </motion.div>
       </div>
-
-      <div className="flex flex-wrap justify-center gap-4 pt-64">
-        <ProjectButton href='/gallery/visual/digital/3D' title="3D" />
-        <ProjectButton href='/gallery/visual/2D' title="2D" />
-      </div>
     </div>
-  );
-}
-
-function ProjectButton({ href, title }: { href: string; title: string }) {
-  return (
-    <motion.a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`w-44 h-16 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-4 ${raleway.className}`}
-      whileHover={{ scale: 1.08 }}
-      transition={{ type: 'spring', stiffness: 300, damping: 15 }}
-      style={{ cursor: 'pointer' }}
-    >
-      <span className="text-center text-lg">{title}</span>
-    </motion.a>
   );
 }
