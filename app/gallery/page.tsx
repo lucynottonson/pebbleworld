@@ -19,7 +19,7 @@ export default function PondPage() {
           Gallery
         </span>
 
-        <span className={'text-xl font-normal text-[var(--text)] ${raleway.className}'}>
+        <span className={`text-xl font-normal text-[var(--text)] ${raleway.className}`}>
          Give me grace here. 
         </span>
 
