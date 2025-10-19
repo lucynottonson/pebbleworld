@@ -17,7 +17,7 @@ export default function PondPage() {
           Pond
         </span>
 
-        <span className={'text-xl font-normal text-[var(--text)] ${raleway.className}'}>
+        <span className={`text-xl font-normal text-[var(--text)] ${raleway.className}`}>
          Media in the form of text. Most deranged part of this website. 
         </span>
       </motion.div>

@@ -4,13 +4,11 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 const raleway = Raleway({ subsets: ["latin"], weight: ["400","700"] });
-const montserrat = Montserrat({ subsets: ["latin"], weight: "400" });
 
 export default function PondPage() {
   return (
-    <div className="min-h-screen flex flex-col items-center p-4 gap-8" style={{ backgroundColor: "var(--background)" }}>
-
-      <p className={`text-center max-w-2xl text-lg leading-relaxed ${montserrat.className}`}>
+<div className="min-h-screen flex flex-col items-center pb-16" style={{ backgroundColor: "var(--background)" }}>
+      <p className={`text-center max-w-2xl text-lg leading-relaxed mb-12 ${raleway.className}`}>
         Here are some links to other things I have made and some I did not make. They are all unfinished.
         Rule 1 is never expect me to finish anything ever. I get bored. I am hoping that by creating
         a list of links I will be motivated to finish something. My long term plan is to put them all
@@ -93,13 +91,13 @@ function ProjectButton({ href, title, description }: { href: string; title: stri
   style={{ cursor: "pointer" }}
   variants={{
     collapsed: { height: 64, scale: 1 },
-    expanded: { height: "auto", scale: 1.05 },
+    expanded: { height: "auto"},
   }}
   transition={{ type: "spring", stiffness: 200, damping: 25 }}
 >
-  <span className="z-10 text-center text-2xl">{title}</span>
+<span className="z-10 text-center text-[clamp(0.9rem,1.5vw,1.4rem)]">{title}</span>
   <motion.span
-    className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${montserrat.className}`}
+    className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${raleway.className}`}
     initial={{ opacity: 0, height: 0 }}
     animate={isHovered ? { opacity: 1, height: "auto" } : { opacity: 0, height: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 25 }}
