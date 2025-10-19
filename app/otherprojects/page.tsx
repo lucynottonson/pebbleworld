@@ -30,7 +30,7 @@ export default function PondPage() {
           <ProjectButton
             href="https://numix-brown.vercel.app"
             title="Alcohol Calculator"
-            description="Collab with Benny. I made the original site and he made it a lot better. You can use it to know how much alcohol is in your drink using a standard 1.5oz shot of 80 proof liquor as a universal measurement for one drink. Helpful if you have very bad anxiety about getting too drunk."
+            description="Collab with Benny. I made the original site and he made it a lot better. You can use it to know how much alcohol is in your drink using a standard 1.5oz shot of 80 proof liquor as a universal measurement for one drink. Helpful if you are trying to precisely measure how drunk you are going to get. Also helpful for self-experimentation as it creates a control group. You can, for example, know which factors outside of alcohol content contribute to your hangover symptoms so you can optimize your drinking. By optimize I mean getting as drunk as possible with no consequences. Mine is 2 shots. It used to be 3. One day it will probably be 1 at which point I will consider my days numbered."
           />
 
           <ProjectButton
