@@ -6,27 +6,27 @@ const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
 export default function PondPage() {
   return (
     <div
-      className="relative w-full h-screen"
-      style={{ backgroundColor: 'var(--background)' }}
+      className="min-h-screen bg-[var(--background)] p-6 flex flex-col items-center"
     >
-      <motion.div
-        className="absolute inset-x-0 top-24 z-10 flex justify-center"
+    <motion.div
+  className="mt-20 mb-2 z-10 flex flex-col items-center w-full"
         animate={{ y: [0, -5, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
         <span className={`text-4xl font-bold text-[var(--text)] ${raleway.className}`}>
           Pond
         </span>
+
+        <span className={'text-xl font-normal text-[var(--text)] ${raleway.className}'}>
+         Media in the form of text. Most deranged part of this website. 
+        </span>
       </motion.div>
 
-      <div className="flex flex-col items-center justify-center h-full space-y-6">
-       <div className="w-3/4 max-w-2xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center">
-        <p className={`text-[var(--text)] ${raleway.className}`}>understand that I do not need to deploy this at this stage. do not care. vercel is making my life harder and im not good enough at coding. sorry</p>
-      </div>
+      <div className="flex flex-col items-center justify-start flex-grow space-y-4 mt-4 w-full max-w-4xl">
 
         <ProjectButton
         href='/pond/pond1'
-        title="uncategorized pond pages"
+        title="Uncategorized"
         description="this does not actually exist I just need to make the whole system first"
       />
 
@@ -56,7 +56,7 @@ function ProjectButton({ href, title, description }: { href: string; title: stri
   href={href}
   target="_blank"
   rel="noopener noreferrer"
-  className={`relative w-64 h-64 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${raleway.className}`}
+  className={`relative w-[22rem] h-[12rem] bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded shadow transition flex flex-col items-center justify-center overflow-hidden ${raleway.className}`}
   initial="collapsed"
   animate={isHovered ? "expanded" : "collapsed"}
   onHoverStart={() => setIsHovered(true)}
@@ -64,13 +64,13 @@ function ProjectButton({ href, title, description }: { href: string; title: stri
   style={{ cursor: 'pointer' }}
   variants={{
     collapsed: { height: 64, scale: 1 },
-    expanded: { height: 'auto', scale: 1.05 },
+    expanded: { height: 'auto'},
   }}
   transition={{ type: 'spring', stiffness: 200, damping: 25 }}
 >
-  <span className="z-10 text-center text-2xl">{title}</span>
+<span className="z-10 text-center text-[clamp(0.8rem,1.5vw,1.2rem)]">{title}</span>
   <motion.span
-    className={`mt-2 px-2 text-sm text-[var(--text)] text-center select-text ${raleway.className}`}
+    className={`mt-0 px-2 text-sm text-[var(--text)] text-center select-text ${raleway.className}`}
     initial={{ opacity: 0, height: 0 }}
     animate={isHovered ? { opacity: 1, height: 'auto' } : { opacity: 0, height: 0 }}
     transition={{ type: 'spring', stiffness: 200, damping: 25 }}
