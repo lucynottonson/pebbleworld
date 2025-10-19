@@ -58,18 +58,18 @@ export default function PondPage() {
           <ProjectButton
             href="https://personal.math.ubc.ca/~cass/frivs/latin/latin-dict-full.html"
             title="Latin Word List"
-            description="Very extensive reference site for latin words. I like this website. It is nice if you want to search for a root or something. You can also just read it in the way a child before iPads might have read the English dictionary when they were bored. It is sort of fun to experience boredom from the perspective of a pre-internet child."
+            description="Very extensive reference site for latin words. I like this website. It is nice if you want to search for a root or something. You can also just read it in the way a child before iPads might have read the English dictionary when they were bored."
           />
           <ProjectButton
             href="https://annas-archive.org"
             title="Annas Archive"
-            description="Largest online shadow library. They have an information page with a better description than I could give. NOTE: It is each of our individual ethical responsibilities to do research on the origins of texts we are thinking about pirating and decide whether or not it is right to do so. There are times when I do not think it is. Do not steal from individuals. Only steal from corporations. It is also good to support your local library. Individual action matters at the local level."
+            description="Largest online shadow library. They have an information page with a better description than I could give. NOTE: It is each of our individual ethical responsibilities to do research on the origins of texts we are thinking about pirating and decide whether or not it is right to do so. Please think about who would be getting money if you did not pirate something."
           />
 
           <ProjectButton
             href="https://www.canada.ca/en.html"
             title="Canadian Government Website"
-            description="Has many resources that are more reputable than the resources available on the US government website at this time. Accurate food nutrition database, etc. Nice to look through. No ads for megacorporations"
+            description="Good government website. Very cutie pie. Does not look like an ad for a shitty movie which is really inspiring."
           />
         </div>
       </div> 
