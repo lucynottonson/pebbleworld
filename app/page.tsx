@@ -23,6 +23,9 @@ export default function HomePage() {
       <div className="w-3/4 max-w-xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center">
         <p className={`text-[var(--text)] ${raleway.className}`}>I am currently trying to create an organization system that is normal and makes sense. This is more difficult than you might think. Most of the site is down right now because of this. You cannot see the progress that has been made, but I promise it is coming together.</p> 
       </div>
+       <div className="w-3/4 max-w-xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center">
+        <p className={`text-[var(--text)] ${raleway.className}`}>October 28 Update: I am adding a list of pages recently added to pond, to give the site more of an alive feel. Keep in mind I am giving this update before making a new pond page. I have concepts of a pond page!!!!!!!!! But here is the link to it. I will edit the date if it does not get completed today. But I think I will complete it today. It is never certain though.</p> 
+      </div>
       </div>
     </div>
   );
