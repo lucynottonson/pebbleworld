@@ -1,6 +1,5 @@
 // ...existing code...
 'use client';
-import { motion } from "framer-motion";
 import { Raleway } from 'next/font/google';
 const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
 
