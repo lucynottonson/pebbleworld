@@ -11,13 +11,13 @@ export default function PondPage() {
       className="min-h-screen w-full px-6 pt-32 pb-16 flex flex-col items-center bg-[var(--background)]"
     >
       <motion.a
-        href="/pond/pond1"
+        href="/pond/pond2"
         className={`fixed top-24 left-8 w-24 h-10 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-3 ${raleway.className}`}
         whileHover={{ scale: 1.08 }}
         transition={{ type: 'spring', stiffness: 300, damping: 15 }}
         style={{ cursor: 'pointer' }}
       >
-        Back
+        WTAGB
       </motion.a>
       <motion.div
         className="text-center mb-12"
@@ -25,10 +25,10 @@ export default function PondPage() {
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
         <h1 className={`text-4xl font-bold text-[var(--text)] mb-2 ${raleway.className}`}>
-          Title of page when it exists
+          Why Binaries are Good and Bad
         </h1>
         <p className={`text-lg text-[var(--text)]/80 ${raleway.className}`}>
-          October 7, 2025
+          October 28, 2025
         </p>
       </motion.div>
 

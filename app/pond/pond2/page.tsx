@@ -16,7 +16,7 @@ export default function PondPage() {
         transition={{ type: 'spring', stiffness: 300, damping: 15 }}
         style={{ cursor: 'pointer' }}
       >
-        Back
+        Pond
       </motion.a>
       <div className="absolute inset-x-0 top-20 z-10 flex justify-center">
         <motion.div
@@ -31,7 +31,7 @@ export default function PondPage() {
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 pt-64">
-        <ProjectButton href='/pond/pond2/1' title="first" />
+        <ProjectButton href='/pond/pond2/1' title="Binaries" />
         <ProjectButton href='#' title="box" />
         <ProjectButton href='#' title="box" />
         <ProjectButton href='#' title="box" />
