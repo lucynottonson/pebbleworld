@@ -123,7 +123,7 @@ My prediction is that binaries are directly linked to capitalism, which is direc
 Importantly, binaries allow us to create false realities where it is not morally reprehensible to knowingly cause suffering. In order to assign monetary value to a thing, it must first be categorized. Capitalism depends on exploitation which depends on dehumanization. Binary thought allows us to cognitively separate ourselves from the suffering of others, creating the ideal conditions for exploitation.
 </p>
 <p>
-So are binaries bad? I think so, yes. I understand that in order to answer that question I had to think in terms of binaries. But when I say "bad" here, I mean "causing harm," "lazy," "antithetical to human progress," or any other similar term you&apos;d like to substitute. I do not mean bad as in "opposite of good."
+So are binaries bad? I think so, yes. I understand that in order to answer that question I had to think in terms of binaries. But when I say &quot;bad&quot; here, I mean &quot;causing harm,&quot; &quot;lazy,&quot; &quot;antithetical to human progress,&quot; or any other similar term you&apos;d like to substitute. I do not mean bad as in &quot;opposite of good.&quot;
 </p>
 <p>
 My intention when I decided to write about why things are good and bad was to discover nuance. It is a good exercise against binary thinking to force both ends of a binary onto something. If two opposites both apply, the binary dissolves. It is no longer relevant. It does not explain anything. I am still using the terms because they mean something within our current conceptual reality. So I will attempt with each topic to generate reasons why things are both “good” and “bad.”
