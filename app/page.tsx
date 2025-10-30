@@ -16,7 +16,7 @@ export default function HomePage() {
 
 
       <div className="container mx-auto h-full px-6">
-        <div className="flex flex-row h-full items-start space-x-6 py-12">
+<div className="flex flex-col md:flex-row h-full items-start md:space-x-6 space-y-6 md:space-y-0 py-12">
           <main className="flex-1 min-w-0">
             <div className="flex flex-col items-center justify-start h-full space-y-6">
               <div className="w-full max-w-2xl h-32 bg-[var(--text)]/10 border border-[var(--background)] rounded-xl flex items-center justify-center px-4">
