@@ -29,7 +29,7 @@ export default function PondPage() {
           Why Binaries are Good and Bad
         </h1>
         <p className={`text-lg text-[var(--text)]/80 ${raleway.className}`}>
-          October 28, 2025
+          October 30, 2025
         </p>
       </motion.div>
 
