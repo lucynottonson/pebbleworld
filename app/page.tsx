@@ -5,7 +5,7 @@ const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
 
 export default function HomePage() {
   const recentPonds = [
-    { title: 'WTAGB - Binaries', href: '/pond/pond2/1', date: 'Oct 28, 2025' },
+    { title: 'WTAGB - Binaries', href: '/pond/pond2/1', date: 'Month Number, 2025' },
   ];
 
   return (
