@@ -117,6 +117,9 @@ My prediction is that binaries are directly linked to capitalism, which is direc
 Importantly, binaries allow us to create false realities where it is not morally reprehensible to knowingly cause suffering. Capitalism began with and requires exploitation to continue. Exploitation requires dehumanization. And binary thought allows us to cognitively separate ourselves from the suffering of others. This creates the ideal conditions for exploitation. 
 </p>
 <p>
+So are binaries bad? I think so , yes. I understand that in order to answer that question, I had to think in terms of binaries. But when I say "bad" here, I mean "cause harm," "lazy," "antithetical to human progress," and any other terms you&apos;d like to add. I do not mean bad as in "opposite of good."" 
+</p>
+<p>
 Anyway! I think that is all I have to say about this for now. That was a lot to think about! I will probably have more ideas later and I will add them to this. For now I think I will actually finish something and put it in the pond! Goodbye. 
       </p>
       </div>
