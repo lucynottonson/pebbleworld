@@ -32,11 +32,6 @@ export default function PondPage() {
 
       <div className="flex flex-wrap justify-center gap-4 pt-64">
         <ProjectButton href='/pond/pond2/1' title="Binaries" />
-        <ProjectButton href='#' title="box" />
-        <ProjectButton href='#' title="box" />
-        <ProjectButton href='#' title="box" />
-        <ProjectButton href='#' title="box" />
-        <ProjectButton href='#' title="box" />
       </div>
     </div>
   );
