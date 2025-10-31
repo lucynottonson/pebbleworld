@@ -30,6 +30,22 @@ return (
 >
   WTAGB
 </motion.a>
+<div className="md:hidden flex justify-start w-full max-w-3xl px-6 mt-8 mb-6">
+  <motion.a
+    href="/pond/pond2"
+    className={`
+      w-20 h-9 
+      bg-[var(--accent)] text-[var(--baccent)]
+      font-semibold rounded-lg shadow-md
+      flex items-center justify-center text-center text-sm
+      ${raleway.className}
+    `}
+    whileHover={{ scale: 1.08 }}
+    transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+  >
+    WTAGB
+  </motion.a>
+</div>
     <motion.div
       className="text-center mb-12"
       animate={{ y: [0, -5, 0] }}
