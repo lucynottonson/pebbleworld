@@ -13,15 +13,25 @@ return (
   <div
     className="min-h-screen w-full px-6 pt-32 pb-16 flex flex-col items-center bg-[var(--background)]"
   >
-    <motion.a
-      href="/pond/pond2"
-      className={`fixed top-24 left-8 w-24 h-10 bg-[var(--accent)] text-[var(--baccent)] font-semibold rounded-lg shadow-md flex items-center justify-center text-center px-3 ${raleway.className}`}
-      whileHover={{ scale: 1.08 }}
-      transition={{ type: 'spring', stiffness: 300, damping: 15 }}
-      style={{ cursor: 'pointer' }}
-    >
-      WTAGB
-    </motion.a>
+<motion.a
+  href="/pond/pond2"
+  className={`
+    fixed z-50
+    top-24
+    left-6 sm:left-8      // 1.5rem on mobile, 2rem on sm+
+    w-20 h-9 sm:w-24 sm:h-10
+    bg-[var(--accent)] text-[var(--baccent)]
+    font-semibold rounded-lg shadow-md
+    flex items-center justify-center text-center
+    px-2 text-sm sm:text-base
+    ${raleway.className}
+  `}
+  whileHover={{ scale: 1.08 }}
+  transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+  style={{ cursor: 'pointer' }}
+>
+  WTAGB
+</motion.a>
     <motion.div
       className="text-center mb-12"
       animate={{ y: [0, -5, 0] }}
