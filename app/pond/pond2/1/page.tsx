@@ -16,21 +16,17 @@ return (
 <motion.a
   href="/pond/pond2"
   className={`
-    fixed 
-    top-24 
-    left-4 right-4           
-    max-w-24 mx-auto         
-    md:left-8 md:right-auto md:mx-0
-    h-9 
+    fixed top-24 left-8 
+    hidden md:flex          
+    w-24 h-10 
     bg-[var(--accent)] text-[var(--baccent)]
     font-semibold rounded-lg shadow-md
-    flex items-center justify-center text-center
-    text-sm 
-    z-50
+    items-center justify-center text-center px-3
     ${raleway.className}
   `}
   whileHover={{ scale: 1.08 }}
   transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+  style={{ cursor: 'pointer' }}
 >
   WTAGB
 </motion.a>
