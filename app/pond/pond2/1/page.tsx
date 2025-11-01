@@ -174,7 +174,7 @@ I have reached the point, unfortunately, that I feared I would when coming up wi
 Thinking for the sake of thinking is good though! There does not have to be an answer or a conclusion or any point to doing anything! Living by this is one of the ways you can rebel against capitalism in everyday life. You can think for a long time and never come to any conclusion and decide not to consider the time you spent thinking wasted. You can think of new ways to think about things for fun and for no reason at all. It is my opinion that thought itself is intrinsically valuable and therefore needs no justification or outcome. Maybe next I will do “why thinking is good and bad.” 
 </p>
 <p>
-I think that is all I have to say as we are reaching a point of no return. I am not necessarily pleased with it as I did not answer any questions regarding any of the questions I presented in the beginning, nor do I feel any closer to them. That was to be expected. I have very debilitating and severe obsessive compulsive disorder. I am clinically insane. Etcetera. But at least I finished something! 
+I think that is all I have to say as we are reaching a point of no return. I am not necessarily pleased with it as I did not answer any questions regarding any of the questions I presented in the beginning, nor do I feel any closer to them. That was to be expected. But at least I finished something! 
 </p>
      </div>
     </div>
