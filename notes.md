@@ -21,7 +21,29 @@ pages I would like to make:
 - on the ineffable
 - why doesn't anyone care about themselves or each other?
 
-
+why things are good and bad list:
+- science
+- the DSM
+- psychiatric medication
+- the concept of "intelligence"
+- individualism
+- a conceptual self
+- school
+- language
+- philosophy
+- AI
+- metacognition
+- capitalism
+- socialism
+- communism 
+- psilocybin mushrooms
+- alcohol
+- empathy
+- the idea of linear progress
+- humanity 
+- art
+- residential treatment centers
+- autism
 
 
 sites iwant to add to sites list but need better description:
@@ -141,3 +163,4 @@ PAGES WITH CORRECT FORMATTING:
 [ ] info/page.tsx
 [x] otherprojects/page.tsx
 [ ] throw/page.tsx
+[ ] pond/pond3/book1/page.tsx (might be close to right i just didn't double check)
