@@ -4,6 +4,8 @@ import { Raleway } from 'next/font/google';
 import { Montserrat } from 'next/font/google';
 const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });const montserrat = Montserrat({ subsets: ['latin'], weight: ['400', '600'] });
 
+//THIS IS NOT A PUBLISHED PAGE, IT IS A TEMPLATE FOR THE OTHER PAGES TO COPY
+
 export default function PondPage() {
   return (
     <div
