@@ -33,7 +33,7 @@ export default function PondPage() {
       <div className="flex flex-wrap justify-center gap-4 pt-64">
         <ProjectButton href='/pond/pond1/110425' title="November 4, 2025" />
         <ProjectButton href='/pond/pond1/121225' title="December 12, 2025" />
-        <ProjectButton href='pond/pond1/122125' title="December 21, 2025" />
+        <ProjectButton href='/pond/pond1/122125' title="December 21, 2025" />
         <ProjectButton href='#' title="box" />
         <ProjectButton href='#' title="box" />
         <ProjectButton href='#' title="box" />
