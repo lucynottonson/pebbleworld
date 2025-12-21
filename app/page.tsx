@@ -6,6 +6,8 @@ const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
 export default function HomePage() {
   const recentPonds = [
     { title: 'December 12 deranged stream of consciousness', href: '/pond/pond1/121225', date: 'December 12, 2025' },
+    { title: 'December 21 also deranged stream of consciousness', href: '/pond/pond1/122125', date: 'December 21, 2025' },
+
   ];
 
   return (
